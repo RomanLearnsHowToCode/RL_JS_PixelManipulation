@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  /*This would align content in the middle of the page*/
+  justify-content: center;
+  align-items: center;
+}
+
+#canvas1 {
+  border: 3px solid white;
+  width: 799px;
+  height: 950px;
+}
